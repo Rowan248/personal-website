@@ -1,0 +1,26 @@
+/*CSS Styling for the Navigation Bar*/
+
+.NavBar {
+    /* background-color: #90cef6; */
+    background-color: #1D3557;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    background-color: #1D3557;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 6px;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: #C7D9B7;
+}

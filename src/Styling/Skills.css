@@ -1,0 +1,10 @@
+.skills {
+    /* background-color: #90cef6; */
+    background-color: #CBBAED;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+}

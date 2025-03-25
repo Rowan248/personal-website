@@ -24,7 +24,7 @@ function Home() {
         <h1 className='my-name'>Rowan Cusano</h1>
         <div className="contact-info">
           <h3>Email: rowan.cusano@gmail.com</h3>
-          <h3>LinkedIn: https://www.linkedin.com/in/rowan-cusano/</h3>
+          <a href="https://www.linkedin.com/in/rowan-cusano/" target="_blank">My LinkedIn Page</a>
         </div>
         <p>This will be where I put a short bio. This bio will describe myself in some way and I am making this long so I can see how it interacts at the moment.</p>
       </div>

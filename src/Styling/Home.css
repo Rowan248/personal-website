@@ -18,6 +18,9 @@
     /* justify-content: stretch; */
     text-align: center;
     color: black;
+
+    /* add more space between the things */
+    /* also name biggger? use css from index.css */
 }
 
 .p {

@@ -2,9 +2,49 @@
 include shadow behind it
 */
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(43, 42, 42, 0.5);
+}
+
 .modal {
     position: fixed;
     top: 50%;
     left: 50%;
-    background-color: blue;
+    transform: translate(-50%, -50%);
+    background-color: #9B5DE5;
+    width: 45vw;
+    height: 70dvh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+.close-button {
+    background-color: black;
+    border-radius: 8px;
+    width: 50%;
+    /* position: absolute; */
+    /* left: 100%; */
+    transform: translate(50%, 0);
+    /* margin: 1%; */
+    border: 0px solid transparent;
+    padding: 2% 3%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: #FF474C;
 }

@@ -1,18 +1,27 @@
 import '../Styling/Modal.css';
+import { useState, useEffect } from 'react';
 
-// modal is going to be in app?
-// send up data showing in it, used in exp and elsewhere
+function Modal({ modalClose, displayData }) {
 
-function Modal({ modalClose }) {
+  const [modalData, setModalData] = useState({});
+
+  useEffect(() => {
+    setModalData(displayData);
+  }, [displayData]);
 
   function handleCloseClick() {
     modalClose();
   }
 
   return (
-    <div className="modal">
-      <button onClick={handleCloseClick}>CLOSE</button>
-      MODAL
+    <div className='overlay'>
+      <div className="modal">
+        <div className='modal-content'>
+          <button className='close-button' onClick={handleCloseClick}>X</button>
+          <h2>{modalData.title}</h2>
+          <h4>{modalData.type}</h4>
+        </div>
+      </div>
     </div>
   );
 }

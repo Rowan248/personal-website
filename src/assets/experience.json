@@ -1,0 +1,51 @@
+{
+    "workExp": [
+        {
+            "id": 1,
+            "title": "NTConcepts Software Development Intern",
+            "image": "i guess put the nt logo here",
+            "type": "Internship",
+            "date": "input later",
+            "description": "something",
+            "link": "company website"
+        },
+        {
+            "id": 2,
+            "title": "NTConcepts Software Development Intern",
+            "image": "i guess put the nt logo here",
+            "type": "Internship",
+            "date": "input later",
+            "description": "something",
+            "link": "idk"
+        },
+        {
+            "id": 3,
+            "title": "NTConcepts Software Development Intern",
+            "image": "i guess put the nt logo here",
+            "type": "Internship",
+            "date": "input later",
+            "description": "something",
+            "link": "idk"
+        }
+    ],
+    "otherExp": [
+        {
+            "id": 1,
+            "title": "VTHacks",
+            "image": "img of project",
+            "type": "Hackathon",
+            "date": "input later",
+            "description": "something",
+            "link": "github"
+        },
+        {
+            "id": 2,
+            "title": "CS project",
+            "image": "image",
+            "type": "School",
+            "date": "input later",
+            "description": "something",
+            "link": "idk"
+        }
+    ]
+}

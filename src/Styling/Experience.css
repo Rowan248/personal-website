@@ -39,7 +39,7 @@
     padding: 2%;
     margin: 1.5vh 2vw;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.5vw;
     transition: background-color 0.2s, box-shadow 0.2s;
     /* fix button text reactive */
 }

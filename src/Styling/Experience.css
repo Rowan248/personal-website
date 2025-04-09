@@ -12,35 +12,40 @@
 
 .experiences {
     display: flex;
-    justify-content: space-around;
-    margin: 2vh;
+    /* justify-content: space-evenly; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5vh;
     padding: 2vh;
     width: 90vw;
     height: auto;
     background-color: #A3D5FF;
-    border-radius: 8%;
+    /* border-radius: 2%; */
     border: aqua;
     border-color: aqua;
-    border-radius: 5px;
     color: black;
 }
 
 /* .work-experience {} */
 
 .exp-buttons {
-    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
     background-color: rgb(248, 243, 243);
     border-radius: 8%;
     border: 0px;
     color: black;
-    /* width: 10%;
-    height: 10%; */
+    max-width: 20%;
     padding: 2%;
-    /* margin: 0 5%; */
+    margin: 1.5vh 2vw;
+    font-weight: bold;
+    font-size: x-large;
+    transition: background-color 0.2s, box-shadow 0.2s;
 }
 
 .exp-buttons:hover {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* background-color: rgb(247, 239, 239); */
     background-color: white;
+    cursor: pointer;
 }

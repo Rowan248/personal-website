@@ -1,0 +1,56 @@
+{
+    "workExp": [
+        {
+            "id": 1,
+            "title": "NTConcepts Software Development Intern",
+            "image": 0,
+            "type": "Internship",
+            "startDate": "2021-6",
+            "endDate": "2021-7",
+            "description": "The internship program involved working on an AI/ML Research Trends Dashboard Project. This project displayed points representing authors, their works, and the topics of their works and how they were connected through lines between them. I worked on the API of the project, where I created complex cypher queries to collect data from a Neo4j graph database. My team also implemented serializers to convert data to JSON format using Django REST Framework. We worked in an Agile environment, had daily scrum meetings, and used Jira and Confluence to document and track workflow.",
+            "link": "https://www.ntconcepts.com/company/"
+        },
+        {
+            "id": 2,
+            "title": "NTConcepts Software Development Intern",
+            "image": 0,
+            "type": "Internship",
+            "startDate": "2022-6",
+            "endDate": "2022-7",
+            "description": "For this internship, I worked on the front-end for the Demystifying Classifier Performance Dashboard. The project was demonstrating how images were able to be classified in the black box. My team worked with React JS, SCSS/CSS, and HTML. This was my first experience working with front end technologies. My team also often collaborated with the API team to connect the front and back end code. Once again, this project was made in an Agile environment and used Jira and Confluence for documentation.",
+            "link": "https://www.ntconcepts.com/unlocking-the-black-box/"
+        },
+        {
+            "id": 3,
+            "title": "NTConcepts Software Development Intern",
+            "image": 0,
+            "type": "Internship",
+            "startDate": "2023-6",
+            "endDate": "2023-7",
+            "description": "During this internship, I worked with full-time employees on an existing project supporting an intelligence community customer. I coded in both the front end and API component for the application. The technologies I used were React JS, Java, Quarkus, Keycloak, and GraphQL. I worked to improve the application functionality, find and fix various bugs, update the styling and JavaScript code formatting, and test GraphQL usage in the back end. I also participated in daily scrum meetings and used Jira and Confluence to document my progress with each task.",
+            "link": "https://www.ntconcepts.com/company/"
+        }
+    ],
+    "otherExp": [
+        {
+            "id": 1,
+            "title": "VTHacks",
+            "image": "img of project",
+            "type": "Hackathon",
+            "startDate": "input later",
+            "endDate": "input later",
+            "description": "something",
+            "link": "github"
+        },
+        {
+            "id": 2,
+            "title": "CS project",
+            "image": "image",
+            "type": "School",
+            "startDate": "input later",
+            "endDate": "input later",
+            "description": "something",
+            "link": "idk"
+        }
+    ]
+}

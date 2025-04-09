@@ -49,6 +49,7 @@ include shadow behind it
     /* left: 100%; */
     transform: translate(50%, 0);
     margin: 1%;
+    margin: 1%;
     border: 0px solid transparent;
     padding: 2% 3%;
     font-size: 1em;
@@ -60,6 +61,10 @@ include shadow behind it
 
 button:hover {
     background-color: #FF474C;
+}
+
+a {
+    color: black;
 }
 
 a {

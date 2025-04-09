@@ -41,6 +41,7 @@
     font-weight: bold;
     font-size: x-large;
     transition: background-color 0.2s, box-shadow 0.2s;
+    /* fix button text reactive */
 }
 
 .exp-buttons:hover {

@@ -12,6 +12,8 @@
 }
 
 .nav-link {
+    font-size: x-large;
+    /* figure this size out */
     color: white;
     text-decoration: none;
     background-color: #1D3557;
@@ -19,6 +21,7 @@
     padding: 1%;
     border-radius: 6px;
     transition: background-color 0.25s, color 0.25s;
+    /* make it highlighted which page on */
 }
 
 .nav-link:hover {

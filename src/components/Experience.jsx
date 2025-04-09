@@ -1,6 +1,6 @@
 import '../Styling/Experience.css';
 import { useState, useEffect } from 'react';
-import experience from '../assets/experience.json'
+import experience from '../assets/mydata/experience.json'
 
 function Experience({ modalOpen }) {
 
@@ -12,22 +12,25 @@ function Experience({ modalOpen }) {
     setOtherExp(experience.otherExp);
   }, []);
 
-  function handleModalOpen(e) {
+  function handleWorkModalOpen(e) {
     modalOpen(workExp[e.target.id - 1]);
+  }
+
+  function handleOtherModalOpen(e) {
+    modalOpen(otherExp[e.target.id - 1]);
   }
 
   return (
     <div className="experience">
       <div className="experiences work-experience">
-        {/* buttons in here that open modal, on click grab {} from array useing id-1, send that to app to send to modal */}
         {workExp.map((work) =>
-          <button id={work.id} key={work.id} className='exp-buttons' onClick={handleModalOpen}>{work.id}</button>
+          <button id={work.id} key={work.id} className='exp-buttons' onClick={handleWorkModalOpen}>{work.title}</button>
           // put div in button that takes up whole space and displays stuff
         )}
       </div>
       <div className="experiences other-experience">
         {otherExp.map((other) =>
-          <button id={other.id} key={other.id} className='exp-buttons' onClick={handleModalOpen}>{other.id}</button>
+          <button id={other.id} key={other.id} className='exp-buttons' onClick={handleOtherModalOpen}>{other.title}</button>
         )}
       </div>
     </div>

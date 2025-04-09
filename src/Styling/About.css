@@ -3,9 +3,21 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     overflow: auto;
     color: black;
     /* justify-content: space-evenly; */
+}
+
+.about-layout {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh;
+    padding: 2vh;
+    width: 50%;
+    height: auto;
+    background-color: #A3D5FF;
+    border-radius: 8%;
+    border: aqua;
+    border-color: aqua;
+    color: black;
 }

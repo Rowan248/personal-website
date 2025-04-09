@@ -17,15 +17,28 @@ include shadow behind it
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #9B5DE5;
-    width: 45vw;
-    height: 70dvh;
+    min-width: 30vw;
+    max-width: 45vw;
+    /* height: 80dvh; */
+    max-height: 80%;
+    overflow: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* fix modal overflow, which thing has it (should be content) */
 
 .modal-content {
     display: flex;
     flex-direction: column;
     margin: 3%;
+    padding: 2%;
+    /* border-radius: 5%; */
+    background-color: #D6EFFF;
+    color: black;
+    text-align: center;
+    max-height: 75%;
+    width: 90%;
+    overflow: auto;
 }
 
 .close-button {
@@ -35,7 +48,7 @@ include shadow behind it
     /* position: absolute; */
     /* left: 100%; */
     transform: translate(50%, 0);
-    /* margin: 1%; */
+    margin: 1%;
     border: 0px solid transparent;
     padding: 2% 3%;
     font-size: 1em;
@@ -47,4 +60,8 @@ include shadow behind it
 
 button:hover {
     background-color: #FF474C;
+}
+
+a {
+    color: black;
 }

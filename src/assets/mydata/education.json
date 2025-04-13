@@ -1,0 +1,29 @@
+{
+    "college": {
+        "Title": "College Education",
+        "School": "Virginia Tech",
+        "Degree": "B.S. Computer Science from College of Engineering, Minors in Human Computer Interaction and Math",
+        "GradDate": "May 2024",
+        "GPA": "3.62, Summa Cum Laude",
+        "Honors": "Virginia Tech Dean’s List Fall 2020, Spring 2022, Fall 2022, and Fall 2023",
+        "Courses": [
+            "Software Design and Data Structures",
+            "Data Structures and Algorithms",
+            "Computer Organization",
+            "Computer Systems",
+            "Intro to GUI",
+            "Database Management Systems"
+        ]
+    },
+    "highSchool": {
+        "Title": "High School Education",
+        "School": "Thomas A. Edison High School",
+        "Degree": "Advanced Degree",
+        "GradDate": "May 2020",
+        "GPA": "4.323",
+        "Honors": "All A Honor Roll Every Quarter, 2019 Fairfax County Regional Science Fair",
+        "Courses": [
+            "Programming"
+        ]
+    }
+}

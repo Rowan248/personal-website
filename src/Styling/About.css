@@ -1,4 +1,4 @@
-.about {
+.about-page {
     background-color: #CBBAED;
     width: 100vw;
     height: 100vh;
@@ -20,4 +20,13 @@
     border: aqua;
     border-color: aqua;
     color: black;
+}
+
+.college-info {
+    text-align: center;
+}
+
+.college-start {
+    display: inline-block;
+    margin: 0;
 }

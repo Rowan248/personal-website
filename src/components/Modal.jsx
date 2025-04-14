@@ -25,7 +25,7 @@ function Modal({ modalClose, displayData }) {
           <h4>Dates: {modalData.startDate} to {modalData.endDate}</h4>
           {/* check if image, wont be any for internship */}
           <p>{modalData.description}</p>
-          <a href={modalData.link} target="_blank">{modalData.link}</a>
+          {modalData.link == 0 ? "" : <a href={modalData.link} target="_blank">{modalData.link}</a>}
         </div>
       </div>
     </div>

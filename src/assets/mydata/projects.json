@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "VTHacks",
+            "image": 0,
+            "type": "Hackathon",
+            "startDate": "2022-11-11",
+            "endDate": "2022-11-13",
+            "description": "For this hackathon, my group worked on a language processing project to recommend songs based on a phrase given by the user. Our site’s home page had a search bar, where a user would input a word or phrase of their choice. After pressing search, the site then displayed a song that matched the feel of the phrase given. This was done using a few csv files that contained scoring for words and songs, where the score of the phrase would be found, then matched to a song from the file. This project used Python and Django API Framework for the backend, as well as a small amount of JavaScript and HTML for the front end.",
+            "link": "https://github.com/Flucc/MUSENTENCE"
+        },
+        {
+            "id": 2,
+            "title": "Hackviolet",
+            "image": 0,
+            "type": "Hackathon",
+            "startDate": "2023-2-4",
+            "endDate": "2023-2-5",
+            "description": "This hackathon involved creating a mobile app that allowed users to track the location of their friends in a group. The Hackviolet hackathons place a focus on women in STEM as well as problems facing women today, which is why my group felt this app could help women be able to feel safer about their friends since they would know their location. This app used React JS for the front end, Firebase as our database storage, and Expo for deploying the app on mobile. This app helped me learn a bit about mobile development including some of the tools used.",
+            "link": 0
+        },
+        {
+            "id": 3,
+            "title": "VTHacks 2",
+            "image": 0,
+            "type": "Internship",
+            "startDate": "2023-9-15",
+            "endDate": "2023-9-17",
+            "description": "My hackathon team built a lost and found site for Virginia Tech that allowed students to upload and find missing items. Users were able to upload an image of the item and a description that included information on where it was found and contact information to give it back. Our site used Google Vision to identify what type of item it was (water bottle, phone, etc.) and sorted it into that category. Other users could search for items they had lost, by checking the category of that item. Our front end used React JS, and the back end was built in Python and used Flask to connect to the front end. We stored the information in MongoDB, which allowed us to easily store the item information and retrieve it efficiently.",
+            "link": "https://github.com/alexsg2/VTHacks11-Lost-and-Found"
+        },
+        {
+            "id": 4,
+            "title": "Hackviolet 2",
+            "image": 0,
+            "type": "Hackathon",
+            "startDate": "2023-2-3",
+            "endDate": "2023-2-4",
+            "description": "For this hackathon, my group wanted to build an app that displayed information about companies and their diversity. We wanted users to be able to make an informed decision on whether the company they were looking at was the right fit for them. Our app allowed users to find a company and see their diversity data, which included information on gender and race. We also included a compare function, where users could look at two companies side by side to see how their diversity data stacks up against one another. Our data came from a csv file we found that had diversity information on various big businesses. Our front end was built in React JS, and the back end was made using Python.",
+            "link": 0
+        },
+        {
+            "id": 5,
+            "title": "Intro to GUI",
+            "image": 0,
+            "type": "School Project",
+            "startDate": "2023-11",
+            "endDate": "2023-12",
+            "description": "This class was all about learning how to build functional and efficient GUIs. For our final and biggest project, we were tasked with building a page that could display and edit different datasets. Users would be able to view datasets as graphs, as well as switch between them. They were also able to edit the information, using custom made copy, cut, and paste functions. This was a MERN methodology project. MongoDB was used to store each dataset, while Express was used in the backend to send and grab the data. React JS was used for the front end, as well as an SVG for the bar graph. I already knew a bit about full stack development, but this class and assignment helped me deepen my understanding.",
+            "link": 0
+        },
+        {
+            "id": 6,
+            "title": "Intro to Database Management",
+            "image": 0,
+            "type": "School Project",
+            "startDate": "2024-1",
+            "endDate": "2024-5",
+            "description": "This group assignment was overarching throughout most of the semester. My team had decided to create a task tracking application that would allow users to create tasks for themselves, make agendas, put tasks in to-do lists, and join organizations where tasks could be assigned. This class and project were my first experience using MySQL, and the course mostly focused on teaching the basics of relational databases. We had to start at the beginning by thinking of the idea, creating entities, designing the front end, and building the full stack application. The project’s front end was built in React JS since that is what my group had the most experience using. The back end used flask to connect the React JS and MySQL database. This project and class allowed me to learn about relational databases and how to create an application using them.",
+            "link": "https://github.com/amadoo157/TrackIT"
+        }
+    ]
+}

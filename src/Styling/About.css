@@ -30,3 +30,13 @@
     display: inline-block;
     margin: 0;
 }
+
+.courses-container {
+    display: flex;
+}
+
+.other-about {
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+}

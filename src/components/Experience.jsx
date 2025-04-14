@@ -1,6 +1,6 @@
 import '../Styling/Experience.css';
 import { useState, useEffect } from 'react';
-import experience from '../assets/mydata/experience.json'
+import experience from '../assets/mydata/experience.json';
 
 function Experience({ modalOpen }) {
 
@@ -41,7 +41,6 @@ function Experience({ modalOpen }) {
         {workExpBool && <div className='exp-block work-block'>
           {workExp.map((work) =>
             <button id={work.id} key={work.id} className='exp-buttons' onClick={handleWorkModalOpen}>{work.title}</button>
-            // put div in button that takes up whole space and displays stuff
           )}
         </div>}
       </div>

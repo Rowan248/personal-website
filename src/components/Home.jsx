@@ -1,5 +1,5 @@
 import '../Styling/Home.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const images = [
 
@@ -21,30 +21,34 @@ const images = [
   }
 ]
 
-function Home() {
+function Home({ currentImg, handleChangeImg }) {
 
-  const [currImage, setCurrImage] = useState(1);
+  const [currImage, setCurrImage] = useState(currentImg);
+
+  useEffect(() => {
+    setCurrImage(currentImg);
+  }, [currentImg]);
 
   function handleSelectorClick(e) {
-    e.target.src = images[e.target.id - 1].src
-    setCurrImage(parseInt(e.target.id))
+    e.target.src = images[e.target.id - 1].src;
+    handleChangeImg(parseInt(e.target.id));
   }
 
   function handleLeftArrowClick() {
     if (currImage == 1) {
-      setCurrImage(4);
+      handleChangeImg(4);
     }
     else {
-      setCurrImage(currImage - 1)
+      handleChangeImg(currImage - 1);
     }
   }
 
   function handleRightArrowClick() {
     if (currImage == 4) {
-      setCurrImage(1);
+      handleChangeImg(1);
     }
     else {
-      setCurrImage(currImage + 1)
+      handleChangeImg(currImage + 1);
     }
   }
 

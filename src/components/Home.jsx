@@ -27,7 +27,7 @@ function Home() {
 
   function handleSelectorClick(e) {
     e.target.src = images[e.target.id - 1].src
-    setCurrImage(e.target.id)
+    setCurrImage(parseInt(e.target.id))
   }
 
   function handleLeftArrowClick() {

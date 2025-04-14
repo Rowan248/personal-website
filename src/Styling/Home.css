@@ -15,12 +15,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: stretch; */
+    justify-content: space-evenly;
     text-align: center;
     color: black;
 
     /* add more space between the things */
     /* also name biggger? use css from index.css */
+}
+
+.my-name {
+    font-size: 5vw;
 }
 
 .p {

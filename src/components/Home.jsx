@@ -1,7 +1,6 @@
 import '../Styling/Home.css';
-// import DSC_0076 from '../assets/RowanImages/DSC_0076.JPG';
+import DSC_0076 from '../assets/RowanImages/DSC_0076.JPG';
 // import DSC_0058 from '../assets/RowanImages/DSC_0058.JPG';
-// import homeDescription from "../assets/texts.json";
 
 // const images = [
 
@@ -10,12 +9,13 @@ import '../Styling/Home.css';
 //     src: DSC_0076
 //   },
 //   {
-//     id: 1,
+//     id: 2,
 //     src: DSC_0058
 //   }
 // ]
 
 function Home() {
+
   return (
     <div className="home">
       <div className='home-description'>

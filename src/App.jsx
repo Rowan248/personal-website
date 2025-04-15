@@ -1,6 +1,6 @@
 import './Styling/App.css';
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className='app-container'>
-      <BrowserRouter>
+      <HashRouter>
         <NavBar></NavBar>
         {modal && <Modal className="app-modal" modalClose={closeModal} displayData={modalData}></Modal>}
         <Routes>
@@ -50,7 +50,7 @@ function App() {
           <Route path="/experience" element={<Experience expBools={expArray} handleExp={handleExpChange} modalOpen={openModal}></Experience>} />
           <Route path="/projects" element={<Projects modalOpen={openModal}></Projects>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

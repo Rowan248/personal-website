@@ -17,8 +17,8 @@
     padding: 2vh;
     width: 50%;
     height: auto;
-    /* background-color: #A3D5FF; */
-    background-color: #6290C8;
+    background-color: #A3D5FF;
+    /* background-color: #00B4D8; */
     border-radius: 8%;
     border: aqua;
     border-color: aqua;
@@ -27,10 +27,11 @@
 
 .college-info {
     text-align: center;
+    font-size: 1.2vw;
 }
 
 .college-title {
-    margin: 3vw 0;
+    margin: 2vw 0;
 }
 
 .college-start {

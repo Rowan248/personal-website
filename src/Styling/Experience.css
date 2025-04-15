@@ -35,8 +35,8 @@
     padding: 1.5%;
     width: 85vw;
     height: auto;
-    /* background-color: #A3D5FF; */
-    background-color: #6290C8;
+    background-color: #A3D5FF;
+    /* background-color: #6290C8; */
     /* border-radius: 2%; */
     border: none;
     color: black;
@@ -44,8 +44,8 @@
 }
 
 .exp-opener:hover {
-    /* background-color: #7fc4fc; */
-    background-color: #3b70b0;
+    background-color: #7fc4fc;
+    /* background-color: #3b70b0; */
     cursor: pointer;
 }
 
@@ -57,8 +57,8 @@
     /* margin: 5vh; */
     width: auto;
     height: auto;
-    /* background-color: #A3D5FF; */
-    background-color: #6290C8;
+    background-color: #A3D5FF;
+    /* background-color: #6290C8; */
     /* border-radius: 2%; */
     color: black;
 }

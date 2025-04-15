@@ -58,7 +58,7 @@ function Home({ currentImg, handleChangeImg }) {
         <h1 className='my-name'>Rowan Cusano</h1>
         <div className="contact-info">
           {/* <h3>Email: rowan.cusano@gmail.com</h3> */}
-          <button className="email-button" onClick={() => window.location = 'mailto:rowan.cusano@gmail.com'}>Email Me</button>
+          {/* <button className="email-button" onClick={() => window.location = 'mailto:rowan.cusano@gmail.com'}>Email Me</button> */}
           <a href="https://www.linkedin.com/in/rowan-cusano/" target="_blank">My LinkedIn Page</a>
         </div>
       </div>

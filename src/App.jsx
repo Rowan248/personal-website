@@ -14,6 +14,8 @@ function App() {
   const [modal, setModal] = useState(false);
   const [modalData, setModalData] = useState({})
   const [currentImage, setCurrentImage] = useState(1);
+  const [skillsArray, setSkillsArray] = useState([false, false, false]);
+  const [expArray, setExpArray] = useState([false, false]);
 
   function openModal(data) {
     setModalData(data);
@@ -28,6 +30,14 @@ function App() {
     setCurrentImage(number);
   }
 
+  function handleSkillsChange(array) {
+    setSkillsArray(array);
+  }
+
+  function handleExpChange(array) {
+    setExpArray(array);
+  }
+
   return (
     <div className='app-container'>
       <BrowserRouter>
@@ -36,8 +46,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home currentImg={currentImage} handleChangeImg={handleChangeImage}></Home>} />
           <Route path="/about" element={<About></About>} />
-          <Route path="/skills" element={<Skills></Skills>} />
-          <Route path="/experience" element={<Experience modalOpen={openModal}></Experience>} />
+          <Route path="/skills" element={<Skills skillBools={skillsArray} handleSkills={handleSkillsChange}></Skills>} />
+          <Route path="/experience" element={<Experience expBools={expArray} handleExp={handleExpChange} modalOpen={openModal}></Experience>} />
           <Route path="/projects" element={<Projects modalOpen={openModal}></Projects>} />
         </Routes>
       </BrowserRouter>

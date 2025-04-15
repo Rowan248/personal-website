@@ -48,6 +48,7 @@
     background-color: #A3D5FF;
     /* border-radius: 2%; */
     color: black;
+    overflow: auto;
 }
 
 .skill-holder {

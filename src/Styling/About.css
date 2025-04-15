@@ -11,6 +11,7 @@
 .about-layout {
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
     margin: 5vh;
     padding: 2vh;
     width: 50%;
@@ -26,13 +27,17 @@
     text-align: center;
 }
 
+.college-title {
+    margin: 3vw 0;
+}
+
 .college-start {
     display: inline-block;
     margin: 0;
 }
 
 .courses-container {
-    display: flex;
+    margin: 3vw 0;
 }
 
 .other-about {

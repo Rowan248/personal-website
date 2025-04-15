@@ -2,12 +2,11 @@ import '../Styling/Experience.css';
 import { useState, useEffect } from 'react';
 import experience from '../assets/mydata/experience.json';
 
-function Experience({ modalOpen }) {
+function Experience({ expBools, handleExp, modalOpen }) {
 
   const [workExp, setWorkExp] = useState([]);
   const [otherExp, setOtherExp] = useState([]);
-  const [workExpBool, setWorkExpBool] = useState(false);
-  const [otherExpBool, setOtherExpBool] = useState(false);
+  const [expBoolsArray, setExpBoolsArray] = useState(expBools);
 
   useEffect(() => {
     setWorkExp(experience.workExp);
@@ -23,22 +22,18 @@ function Experience({ modalOpen }) {
   }
 
   function handleButtonClick(button) {
-    if (button.target.id == 1) {
-      setWorkExpBool(!workExpBool);
-    }
-    else if (button.target.id == 2) {
-      setOtherExpBool(!otherExpBool);
-    }
-    else {
-      console.log("Not a valid button");
-    }
+
+    const newBoolArray = [...expBoolsArray];
+    newBoolArray[button.target.id - 1] = !expBoolsArray[button.target.id - 1];
+    setExpBoolsArray(newBoolArray);
+    handleExp(newBoolArray);
   }
 
   return (
     <div className="experience">
       <div className="experiences work-experience">
         <button id={1} className='exp-opener work-opener' onClick={handleButtonClick}>Work Experience</button>
-        {workExpBool && <div className='exp-block work-block'>
+        {expBoolsArray[0] && <div className='exp-block work-block'>
           {workExp.map((work) =>
             <button id={work.id} key={work.id} className='exp-buttons' onClick={handleWorkModalOpen}>{work.title}</button>
           )}
@@ -46,7 +41,7 @@ function Experience({ modalOpen }) {
       </div>
       <div className="experiences other-experience">
         <button id={2} className='exp-opener other-opener' onClick={handleButtonClick}>Other Experience</button>
-        {otherExpBool && <div className='exp-block work-block'>
+        {expBoolsArray[1] && <div className='exp-block work-block'>
           {otherExp.map((other) =>
             <button id={other.id} key={other.id} className='exp-buttons' onClick={handleOtherModalOpen}>{other.title}</button>
           )}

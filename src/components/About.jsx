@@ -19,16 +19,15 @@ function About() {
       <div className='about-layout education'>
         <div className='college-info'>
           {/* group together, diplay inline block */}
-          <h2>{college.Title}</h2>
+          <h2 className='college-title'>{college.Title}</h2>
           <div className='college-start'>
-            <h4>{college.School}, {college.GPA} ({college.GradDate})</h4>
+            <p>{college.School}, {college.GPA} ({college.GradDate})</p>
           </div>
-          <h4>Degree: {college.Degree}</h4>
-          <h4>Honors: {college.Honors}</h4>
+          <p><b>Degree:</b> {college.Degree}</p>
+          <p><b>Honors:</b> {college.Honors}</p>
           <div className='courses-container'>
             <h4>Relevant Courses:</h4>
-            {collegeCourses.map((csClass) =>
-              <h4 key={csClass}>{csClass}</h4>)}
+            <p id='course-list'>{collegeCourses.join(', ')}</p>
           </div>
         </div>
         {/* <div className='HS-info'></div> */}

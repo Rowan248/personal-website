@@ -5,19 +5,19 @@ const images = [
 
   {
     id: 1,
-    src: "/RowanImages/DSC_0058.JPG"
+    src: "/personal-site/RowanImages/DSC_0058.JPG"
   },
   {
     id: 2,
-    src: "/RowanImages/DSC_0076.JPG"
+    src: "/personal-site/RowanImages/DSC_0076.JPG"
   },
   {
     id: 3,
-    src: "/RowanImages/DSC_0101.JPG"
+    src: "/personal-site/RowanImages/DSC_0101.JPG"
   },
   {
     id: 4,
-    src: "/RowanImages/DSC_0094.JPG"
+    src: "/personal-site/RowanImages/DSC_0094.JPG"
   }
 ]
 

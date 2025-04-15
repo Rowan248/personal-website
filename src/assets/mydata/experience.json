@@ -34,23 +34,13 @@
     "otherExp": [
         {
             "id": 1,
-            "title": "VTHacks",
+            "title": "Lightsaber Club Outreach Officer",
             "image": "img of project",
-            "type": "Hackathon",
-            "startDate": "input later",
-            "endDate": "input later",
-            "description": "something",
-            "link": "github"
-        },
-        {
-            "id": 2,
-            "title": "CS project",
-            "image": "image",
-            "type": "School",
-            "startDate": "input later",
-            "endDate": "input later",
-            "description": "something",
-            "link": "idk"
+            "type": "Club Leadership",
+            "startDate": "2023-2",
+            "endDate": "2024-5",
+            "description": "The Lightsaber Club at Virginia Tech is a club that allows people to build their own lightsabers. Members can design a hilt in a 3D modeling software, which is then 3D printed by the club to be put on a steel pipe. They can also add electronics, which involves soldering and a small amount of programming to set up the board that controls the light and sound. I was involved in the club for a couple years before I became a board member midway through my junior year after the original club board graduated. I transported the materials to and from meetings, helped members who were having trouble with the construction process, and worked on updating the website when new sabers were built.",
+            "link": "https://www.lightsaberclub.org/"
         }
     ]
 }

@@ -1,5 +1,6 @@
 .projects {
-    background-color: #CBBAED;
+    /* background-color: #CBBAED; */
+    background-color: #ebebef;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,7 +20,8 @@
     margin: 2.5vw;
     width: auto;
     height: auto;
-    background-color: #A3D5FF;
+    /* background-color: #A3D5FF; */
+    background-color: #6290C8;
     /* border-radius: 2%; */
     color: black;
 }

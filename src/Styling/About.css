@@ -1,5 +1,6 @@
 .about-page {
-    background-color: #CBBAED;
+    /* background-color: #CBBAED; */
+    background-color: #ebebef;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,7 +17,8 @@
     padding: 2vh;
     width: 50%;
     height: auto;
-    background-color: #A3D5FF;
+    /* background-color: #A3D5FF; */
+    background-color: #6290C8;
     border-radius: 8%;
     border: aqua;
     border-color: aqua;
